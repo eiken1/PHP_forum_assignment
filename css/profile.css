@@ -1,0 +1,12 @@
+#createTopicArea {
+  display: none;
+}
+
+#createEntryArea {
+  display: none;
+}
+
+#textArea {
+  width: 400px;
+  height: 200px;
+}

@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eaf0f9;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  max-width: 500px;
+  margin: auto;
+  max-height: 1000px;
+}
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+h1 {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 0 5%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.searchAndFilter {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.searchSection,
+.sortSection {
+  width: 45%;
+}
+
+.searchSection > form > input {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.topic-list {
+  align-self: flex-start;
+  width: 20%;
+  margin: 0;
+  list-style: none;
+}
+
+.topic-list > li {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.topic-list > li > a {
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+.topic-list > li > a:hover {
+  color: gray;
+}
+
+.topic-info {
+  align-self: flex-start;
+  width: 75%;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+.topic-owner-box {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.topic-owner-box > span {
+  width: 45%;
+}
+.topic-owner-box > span:nth-child(2) {
+  text-align: right;
+}
+
+.entries{
+  display:flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.entry {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  background-color: white;
+  margin-top: 1em;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.own-entry{
+  align-self: flex-end;
+}
+
+.entry > span:nth-child(1) {
+  width: 100%;
+}
+
+.entry > .entryInfo {
+  width: 50%;
+  font-size: 0.8em;
+}
+
+.entryName {
+  text-align: right;
+}
